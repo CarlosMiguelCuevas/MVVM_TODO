@@ -14,6 +14,7 @@ fun TodoDomain.toTodo(id: Int? = null): Todo {
 
 fun Todo.toTodoDomain(): TodoDomain {
     return TodoDomain(
+        id = this.id!!,
         title = this.title,
         description = this.description,
         isDone = this.isDone

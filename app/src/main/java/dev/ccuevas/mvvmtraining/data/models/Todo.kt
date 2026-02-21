@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-class Todo(
+data class Todo(
     val title: String,
     val description: String? = null,
     val isDone: Boolean = false,
