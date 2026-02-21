@@ -84,6 +84,7 @@ fun TodoItemPreview() {
     MvvmTrainingTheme {
         TodoItem(
             todo = TodoDomain(
+                id= 1,
                 title = "Buy groceries",
                 description = "Milk, eggs, bread",
                 isDone = false
@@ -99,6 +100,7 @@ fun TodoItemDonePreview() {
     MvvmTrainingTheme {
         TodoItem(
             todo = TodoDomain(
+                id = 2,
                 title = "Complete project",
                 description = "Finish the MVVM training app",
                 isDone = true

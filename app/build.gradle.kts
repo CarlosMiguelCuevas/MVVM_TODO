@@ -54,6 +54,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
     implementation(libs.room.kotlin)
+    implementation(libs.androidx.material3)
     ksp(libs.room.compiler)
     implementation(libs.room.runtime)
 
